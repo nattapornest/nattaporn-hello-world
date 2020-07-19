@@ -1,3 +1,7 @@
 fun main() {
-    println("Hello Wold! This is Nattaporn")
+    var x = 3
+    val name = "Cormoran"
+    x = x * 10
+    print ("x is $x.")
+    //This is a comment
 }
