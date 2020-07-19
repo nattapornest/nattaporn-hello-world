@@ -1,11 +1,12 @@
 fun main(){
 
-    var x = 1
-    println("Before the loop. x = $x.")
+    var x = 2
+
     while (x<4){
-        println("In the loop. x = $x.")
-        x = x+1
+       print(if (x==2)"Yab" else "Dab")
+        print ("ba")
+        x =x+1
 
     }
-    println("after the loop. x = $x.")
+    if (x==4) println("Do")
 }
