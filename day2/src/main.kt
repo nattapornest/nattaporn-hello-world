@@ -1,12 +1,11 @@
 fun main(){
 
-    var x = 2
 
-    while (x<4){
-       print(if (x==2)"Yab" else "Dab")
-        print ("ba")
-        x =x+1
+    val  d = DrumKit(true, true)
 
-    }
-    if (x==4) println("Do")
+    d.playTopHat()
+    d.playSnare()
+    d.hasSnare = false
+    d.playTopHat()
+    d.playSnare()
 }
